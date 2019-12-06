@@ -1,7 +1,6 @@
-## Running PIXL search
+## PIXL search engine
 Features of PIXL search are described in 
 "High-density cross-linking for protein-protein interactions" by Julian Mintseris and Steven Gygi
-
 
 ## Run peak files
 https://www.ebi.ac.uk/pride/archive/projects/PXD011296
