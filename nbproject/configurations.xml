@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="JMUtil" displayName="JMUtil" projectFiles="true">
+      <itemPath>../JMUtil/Combinatorics.hpp</itemPath>
+      <itemPath>../JMUtil/JMUtil.cpp</itemPath>
+      <itemPath>../JMUtil/JMUtil.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="MSLib" displayName="MSLib" projectFiles="true">
+      <logicalFolder name="Isotope" displayName="Isotope" projectFiles="true">
+        <itemPath>../MSLib/Isotope/emass.cpp</itemPath>
+        <itemPath>../MSLib/Isotope/emass.h</itemPath>
+        <itemPath>../MSLib/Isotope/formula.cpp</itemPath>
+        <itemPath>../MSLib/Isotope/formula.h</itemPath>
+        <itemPath>../MSLib/Isotope/parser.cpp</itemPath>
+        <itemPath>../MSLib/Isotope/parser.h</itemPath>
+      </logicalFolder>
+      <itemPath>../MSLib/DigestOptions.cpp</itemPath>
+      <itemPath>../MSLib/DigestOptions.hpp</itemPath>
+      <itemPath>../MSLib/Fragment.cpp</itemPath>
+      <itemPath>../MSLib/Fragment.hpp</itemPath>
+      <itemPath>../MSLib/Isotope.cpp</itemPath>
+      <itemPath>../MSLib/Isotope.hpp</itemPath>
+      <itemPath>../MSLib/MSMass.cpp</itemPath>
+      <itemPath>../MSLib/MSMass.hpp</itemPath>
+      <itemPath>../MSLib/Makefile</itemPath>
+      <itemPath>../MSLib/Match.cpp</itemPath>
+      <itemPath>../MSLib/Match.hpp</itemPath>
+      <itemPath>../MSLib/Modification.hpp</itemPath>
+      <itemPath>../MSLib/Peak.cpp</itemPath>
+      <itemPath>../MSLib/Peak.hpp</itemPath>
+      <itemPath>../MSLib/Peptide.cpp</itemPath>
+      <itemPath>../MSLib/Peptide.hpp</itemPath>
+      <itemPath>../MSLib/Protein.cpp</itemPath>
+      <itemPath>../MSLib/Protein.hpp</itemPath>
+      <itemPath>../MSLib/Proteome.cpp</itemPath>
+      <itemPath>../MSLib/Proteome.hpp</itemPath>
+      <itemPath>../MSLib/Run.cpp</itemPath>
+      <itemPath>../MSLib/Run.hpp</itemPath>
+      <itemPath>../MSLib/Search.cpp</itemPath>
+      <itemPath>../MSLib/Search.hpp</itemPath>
+      <itemPath>../MSLib/SearchResult.cpp</itemPath>
+      <itemPath>../MSLib/SearchResult.hpp</itemPath>
+      <itemPath>../MSLib/Spectrum.cpp</itemPath>
+      <itemPath>../MSLib/Spectrum.hpp</itemPath>
+      <itemPath>../MSLib/SpectrumHits.cpp</itemPath>
+      <itemPath>../MSLib/SpectrumHits.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>pixl.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../MSLib</Elem>
+    <Elem>../JMUtil</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>boost_program_options</linkerLibLibItem>
+            <linkerLibLibItem>boost_regex</linkerLibLibItem>
+            <linkerLibLibItem>boost_system</linkerLibLibItem>
+            <linkerLibLibItem>boost_filesystem</linkerLibLibItem>
+            <linkerLibLibItem>boost_thread</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-lgsl -lgslcblas</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../JMUtil/Combinatorics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../JMUtil/JMUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../JMUtil/JMUtil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/DigestOptions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/DigestOptions.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Fragment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Fragment.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/emass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/emass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/formula.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/formula.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/MSMass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/MSMass.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Match.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Match.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Modification.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Peak.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Peak.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Peptide.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Peptide.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Protein.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Protein.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Proteome.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Proteome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Run.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Run.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Search.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Search.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/SearchResult.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/SearchResult.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Spectrum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Spectrum.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/SpectrumHits.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/SpectrumHits.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pixl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandLine>-std=c++11</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>boost_program_options</linkerLibLibItem>
+            <linkerLibLibItem>boost_regex</linkerLibLibItem>
+            <linkerLibLibItem>boost_system</linkerLibLibItem>
+            <linkerLibLibItem>boost_filesystem</linkerLibLibItem>
+            <linkerLibLibItem>boost_thread</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-lgsl -lgslcblas</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../JMUtil/Combinatorics.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../JMUtil/JMUtil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../JMUtil/JMUtil.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/DigestOptions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/DigestOptions.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Fragment.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Fragment.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/emass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/emass.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/formula.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/formula.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/parser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Isotope/parser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/MSMass.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/MSMass.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Match.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Match.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Modification.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Peak.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Peak.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Peptide.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Peptide.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Protein.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Protein.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Proteome.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Proteome.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Run.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Run.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Search.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Search.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/SearchResult.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/SearchResult.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/Spectrum.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/Spectrum.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../MSLib/SpectrumHits.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../MSLib/SpectrumHits.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pixl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
