@@ -2,7 +2,7 @@
 Features of PIXL search are described in 
 "High-density cross-linking for protein-protein interactions" by Julian Mintseris and Steven Gygi
 
-The code relies on two other libraries residing in https://github.com/gygilab/MSLib and https://github.com/gygilab/JMUtil
+The code requires [MSLib](https://github.com/gygilab/MSLib) and [JMUtil](https://github.com/gygilab/JMUtil) libraries
 
 ## Run peak files
 https://www.ebi.ac.uk/pride/archive/projects/PXD011296
