@@ -15,10 +15,10 @@ Files for additional runs can be placed in similar directories.
 Note that for each additional run, you have to make sure that the searchDir option in the parameter file points to the correct directory for the run's .dta files
 
 ## Parameter files
-Parameter files used for all runs are all located in https://github.com/gygilab/mintseris_gygi_PNAS_2020
+Parameter files used for all runs are all located in a [Zenodo repo](https://zenodo.org/record/3571196)
 
 ## Fasta sequence dtabases
-All fasta databases are located in https://github.com/gygilab/mintseris_gygi_PNAS_2020.  Note that reverse sequences by default are denoted by a "##' tag at the beginning of the header.
+All fasta databases are located in [Zenodo repo](https://zenodo.org/record/3571196).  Note that reverse sequences by default are denoted by a "##' tag at the beginning of the header.
 If desired, this behavior can be modified by changing the DigestOptions::reverseTag variable but this will require re-compiling the code.  
 
 Documentation of the parameter files can be obtained by running PIXL with the '-h' option:
