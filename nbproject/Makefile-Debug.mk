@@ -70,7 +70,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=-lboost_program_options -lboost_regex -lboost_system -lboost_filesystem -lboost_thread
+LDLIBSOPTIONS=-lboost_program_options -lboost_regex -lboost_system -lboost_filesystem -lboost_thread -lpthread
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
