@@ -111,7 +111,7 @@ Search Options:
 Note that specified number missed cleavage sites for XLink search type applies per peptide.  So setting it 2 implies up to 4 missed cleavage sites allowed per cross-linked PSM.  In addition, enzyme cut sites do not contribute to this count.  Thus when using a Lysine-Lysine cross-linker with trypsin, a setting of 2 actually implies up to 6 sites, 2 of which are not available to trypsin.  
 
 ## Variable Modfication Symbols
-XL follows SEQUEST-based conventions to mark modified residues in output files with symbols '*', '#', '@', '^', '~', '$'.
+PIXL follows SEQUEST-based conventions to mark modified residues in output files with symbols '*', '#', '@', '^', '~', '$'.
 N and C-terminal peptide modifications are denoted by ']' and '[', respectively.  Note that when specifying terminal modifications in the parameter file, '+' and '-' are used protein termini, but ']' and '[' for peptide termini, but only the latter are used in output files for both cases.  Instead, in the output files '+' and '-' are used in flanking residue positions to denote protein termini.  
 
 ## Run time
